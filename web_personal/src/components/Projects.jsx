@@ -2,24 +2,24 @@ import { useInView } from '../hooks/useInView'
 
 const projects = [
   {
-    name: 'Project Alpha',
-    desc: 'Full-stack web app for managing tasks and teams. Features real-time updates, drag-and-drop boards, and role-based access control.',
-    tags: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
-    github: '#',
+    name: 'Cut Time',
+    desc: 'Full-stack mutiplatform app for managing appointments for barbershop´s. Features real-time updates, drag-and-drop boards, and role-based access control.',
+    tags: ['MySQL', 'Python', 'Flask API', 'Android'],
+    github: 'https://github.com/Miguerep/ProyectoGestionReservas',
     live: '#',
   },
   {
-    name: 'Data Dashboard',
-    desc: 'Analytics dashboard with interactive charts, multi-source filtering, and CSV export. Connects to external APIs for live data ingestion.',
-    tags: ['TypeScript', 'React', 'D3.js', 'Python'],
-    github: '#',
+    name: 'Odoo Custom Module',
+    desc: 'Custom module for Odoo ERP system to extend functionality and integrate with external services.',
+    tags: ['Python', 'XML', 'Odoo'],
+    github: 'https://github.com/Miguerep/Proyecto_odoo_modulo_reservas',
     live: '#',
   },
   {
-    name: 'DevBlog',
-    desc: 'Markdown-based blog platform with syntax highlighting, dark mode, and static site generation for sub-second load times.',
-    tags: ['Next.js', 'MDX', 'Tailwind CSS', 'Vercel'],
-    github: '#',
+    name: 'Godot 3D Game',
+    desc: '3D game built with Godot engine featuring custom physics and particle effects.',
+    tags: ['Godot', 'GDScript', '3D Graphics'],
+    github: 'https://github.com/Miguerep/JuegoGodot3D',
     live: '#',
   },
 ]
@@ -30,13 +30,6 @@ const GithubIcon = () => (
   </svg>
 )
 
-const ExternalIcon = () => (
-  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
-    <polyline points="15 3 21 3 21 9" />
-    <line x1="10" y1="14" x2="21" y2="3" />
-  </svg>
-)
 
 export default function Projects() {
   const [ref, inView] = useInView()
@@ -61,9 +54,7 @@ export default function Projects() {
                   <a href={p.github} className="project-link" target="_blank" rel="noreferrer" aria-label="GitHub">
                     <GithubIcon />
                   </a>
-                  <a href={p.live} className="project-link" target="_blank" rel="noreferrer" aria-label="Live demo">
-                    <ExternalIcon />
-                  </a>
+
                 </div>
               </div>
               <p className="project-desc">{p.desc}</p>

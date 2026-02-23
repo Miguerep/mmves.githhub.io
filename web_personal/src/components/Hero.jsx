@@ -45,7 +45,7 @@ export default function Hero() {
       <div className="hero-bg" />
       <div className="hero-content">
         <p className="hero-greeting mono">Hi, I'm</p>
-        <h1 className="hero-name">Your Name</h1>
+        <h1 className="hero-name">Miguel Milla</h1>
         <p className="hero-role">
           <span className="mono accent">&gt;_</span>
           <span className="hero-typed">{typed}</span>

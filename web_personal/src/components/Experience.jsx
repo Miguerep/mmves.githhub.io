@@ -2,9 +2,9 @@ import { useInView } from '../hooks/useInView'
 
 const jobs = [
   {
-    company: 'Company Name',
-    role: 'Senior Frontend Developer',
-    period: '2023 — Present',
+    company: 'Wimad',
+    role: 'IT Specialist',
+    period: '2023 — 2025',
     bullets: [
       'Led development of React application serving 10k+ daily active users',
       'Improved page performance by 40% through code splitting and lazy loading',
