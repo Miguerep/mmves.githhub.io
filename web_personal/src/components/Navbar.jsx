@@ -16,7 +16,7 @@ export default function Navbar() {
     <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <a href="#about" className="navbar-logo">
         <span className="tag">&lt;</span>
-        YN
+        MMVES
         <span className="tag">/&gt;</span>
       </a>
       <ul className="navbar-links">

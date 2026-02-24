@@ -9,7 +9,7 @@ const projects = [
     live: '#',
   },
   {
-    name: 'Odoo Custom Module',
+    name: 'Odoo Custom Module(Work in Progress)',
     desc: 'Custom module for Odoo ERP system to extend functionality and integrate with external services.',
     tags: ['Python', 'XML', 'Odoo'],
     github: 'https://github.com/Miguerep/Proyecto_odoo_modulo_reservas',
@@ -20,6 +20,13 @@ const projects = [
     desc: '3D game built with Godot engine featuring custom physics and particle effects.',
     tags: ['Godot', 'GDScript', '3D Graphics'],
     github: 'https://github.com/Miguerep/JuegoGodot3D',
+    live: '#',
+  },
+  {
+    name: 'Random Card Game',
+    desc: 'Web-based card game with randomized game titles and dynamic UI elements.',
+    tags: ['React', 'Node.js', 'MongoDB'],
+    github: 'https://github.com/cristobaldp/PaginaWeb_ChampionsGames-master',
     live: '#',
   },
 ]
