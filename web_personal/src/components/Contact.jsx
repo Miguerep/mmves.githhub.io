@@ -60,7 +60,6 @@ export default function Contact() {
           const displayText = isEmail ? emailAddress : s.name;
           return (
             <a
-              key={s.name}
               href={s.href}
               target="_blank"
               rel="noopener noreferrer"
