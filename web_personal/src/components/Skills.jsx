@@ -1,9 +1,11 @@
 import { useInView } from '../hooks/useInView'
 
 const skills = {
-  Frontend: ['React', 'TypeScript', 'JavaScript', 'HTML & CSS', 'Tailwind CSS', 'Next.js', 'Figma', 'UI/UX Design', 'Responsive Design'],
+  Frontend: ['React', 'JavaScript', 'HTML & CSS', 'Next.js', 'Figma', 'UI/UX Design', 'Responsive Design'],
   Backend:  ['Node.js', 'Express', 'Python', 'REST APIs', 'PostgreSQL', 'MongoDB', 'Flask', 'MySQL', 'Odoo', 'Godot', 'GDScript'],
-  Tools:    ['Git', 'Vite', 'Docker', 'Windows', 'Linux Server', 'CI/CD', 'Agile Methodologies', 'Jira', 'VS Code', 'Postman'],
+  Tools:    ['Git', 'Vite', 'Docker', 'CI/CD', 'Agile Methodologies', 'Jira', 'VS Code', 'Postman'],
+  Languages: ['Spanish', 'English'],
+  Operating_Systems: ['Linux', 'Windows', 'VMware', 'VirtualBox', 'User Management', 'System Administration'],
 }
 
 export default function Skills() {
